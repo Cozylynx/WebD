@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Sign Up Form</h1>
-    <input >
+    <form action="thankyou.html">
         <input type="text" id="userame" placeholder="First name" required><br><br>
 
         <input type="text" placeholder="Last name" required><br><br>
@@ -18,13 +18,13 @@
         <input type="password"  placeholder="Password" required><br><br>
         
         <label for="gender">Male</label>
-        <input type="radio" name="gender" ><br>
+        <input type="radio" name="gender" value="male"><br>
 
         <label for="gender">Female</label>
-        <input type="radio" name="gender" ><br>
+        <input type="radio" name="gender" value="female" ><br>
 
         <label for="gender">others</label>
-        <input type="radio" name="gender" ><br><br>
+        <input type="radio" name="gender" value="other"><br><br>
 
         <label for="country" >Country</label>
         <select name="countries" id="country">
@@ -34,6 +34,7 @@
         </select><br><br>
         Comments<br>
         <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="submit">
     </form>
 </body>
 </html>
