@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Forms</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="thankyou.html"><!--link to the next page after clicking submit button-->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="username" required><br> <br>
+
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="password" required></input><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="email" required></input><br><br>
+    <p>Select your gender:</p>
+
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Male" value="Male"><br><!--making the name attribute same to make the selection unique -->
+
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Female" value="female"><br>
+    
+    <label for="Others">Others</label>
+    <input type="radio" name="gender" id="Others" value="female"><br><br><br>
+
+    <input type="date" name="" id=""> <br><br>
+
+    <label for="age-group">Select age group</label>
+    <select name="group-values" id="age-group">
+    <option value="11-15">11-15</option>
+    <option value="16-20">16-20</option>
+    <option value="21-50">21-50</option>
+    <option value="50+">50+</option>
+    </select><br>
+    <p>comment below</p>
+    <textarea name="comment Below" id="" cols="30" rows="10"></textarea><br>
+    <input type="file" name="" id="">
+
+    
+    </form>
+</body>
+</html>
